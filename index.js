@@ -2,7 +2,6 @@ const express = require('express');
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const app = express();
-// const keyFilename = './som-rit-ourvoice-cloud-storage-key.json';
 
 app.use(express.json());
 
